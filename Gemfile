@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.0'
 # Use Puma as the app server
@@ -27,6 +26,9 @@ gem 'jbuilder', '2.4.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Bootstrap to make things looks nice
+gem 'bootstrap-sass', '3.3.6'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
